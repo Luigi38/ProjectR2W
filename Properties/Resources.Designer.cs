@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectR2W.Properties
-{
-
-
+namespace ProjectR2W.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,162 @@ namespace ProjectR2W.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ProjectR2W.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string LolChampions {
+            get {
+                return ResourceManager.GetString("LolChampions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 가렌
+        ///갈리오
+        ///갱플랭크
+        ///그라가스
+        ///그레이브즈
+        ///그웬
+        ///나르
+        ///나미
+        ///나서스
+        ///노틸러스
+        ///녹턴
+        ///누누와 윌럼프
+        ///니달리
+        ///니코
+        ///다리우스
+        ///다이애나
+        ///드레이븐
+        ///라이즈
+        ///라칸
+        ///람머스
+        ///럭스
+        ///럼블
+        ///레넥톤
+        ///레오나
+        ///렉사이
+        ///렐
+        ///렝가
+        ///루시안
+        ///룰루
+        ///르블랑
+        ///리 신
+        ///리븐
+        ///리산드라
+        ///릴리아
+        ///마스터 이
+        ///마오카이
+        ///말자하
+        ///말파이트
+        ///모데카이저
+        ///모르가나
+        ///문도 박사
+        ///미스 포츈
+        ///바드
+        ///바루스
+        ///바이
+        ///베이가
+        ///베인
+        ///벨코즈
+        ///볼리베어
+        ///브라움
+        ///브랜드
+        ///블라디미르
+        ///블리츠크랭크
+        ///비에고
+        ///빅토르
+        ///뽀삐
+        ///사미라
+        ///사이온
+        ///사일러스
+        ///샤코
+        ///세나
+        ///세라핀
+        ///세주아니
+        ///세트
+        ///소나
+        ///소라카
+        ///쉔
+        ///쉬바나
+        ///스웨인
+        ///스카너
+        ///시비르
+        ///신 짜오
+        ///신드라
+        ///신지드
+        ///쓰레쉬
+        ///아리
+        ///아무무
+        ///아우렐리온 솔
+        ///아이번
+        ///아지르
+        ///아칼리
+        ///아트록스
+        ///아펠리오스
+        ///알리스타
+        ///애니
+        ///애니비아
+        ///애쉬
+        ///야스오
+        ///에코
+        ///엘리스
+        ///오공
+        ///오른
+        ///오리아나
+        ///올라프
+        ///요네
+        ///요릭
+        ///우디르
+        ///우르곳
+        ///워윅
+        ///유미
+        ///이렐리 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string LolChampions_kr {
+            get {
+                return ResourceManager.GetString("LolChampions_kr", resourceCulture);
             }
         }
     }
