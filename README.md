@@ -10,4 +10,4 @@ Made by **MineEric64**
 |이름|소스 코드|설명|
 |:---:|:---:|:---:|
 |LCU API|.|롤 클라이언트 관련 API|
-|[LCUSharp](https://github.com/bryanhitc/lcu-sharp)|.|롤 클라이언트 관련 |
+|[LCUSharp](https://github.com/bryanhitc/lcu-sharp)|.|롤 클라이언트 관련 라이브러리|
