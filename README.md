@@ -8,4 +8,4 @@ Made by **MineEric64**
 ## Library Reference
 |이름|소스 코드|설명|
 |:---:|:---:|:---:|
-|LCU API, LeagueSharp|.|롤 클라이언트 관련 API
+|LCU API, LeagueSharp|.|롤 클라이언트 관련 API|
