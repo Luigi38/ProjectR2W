@@ -5,7 +5,7 @@ Made by **MineEric64**
 
 Idea by **()**
 
-Collaborated by THEP0LLOCK, Juyong
+Collaborated by **THEP0LLOCK**, **Juyong**
 
 ## Introduction
 리그 오브 레전드에서는 룬을 제대로 맞춰야 이긴다!
