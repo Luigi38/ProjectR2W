@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using ProjectR2W.Clients;
+
 namespace ProjectR2W
 {
     /// <summary>
@@ -23,8 +25,15 @@ namespace ProjectR2W
         public MainWindow()
         {
             InitializeComponent();
+
+            this.Loaded += MainWindow_Loaded;
         }
 
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            await LolClient.Initialize();
 
+
+        }
     }
 }
