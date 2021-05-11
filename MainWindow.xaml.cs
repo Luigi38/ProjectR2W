@@ -31,9 +31,9 @@ namespace ProjectR2W
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            await LolClient.Initialize();
+            LolClient.Initialize();
 
-
+            await LolClient.InitializeClientAsync();
         }
     }
 }

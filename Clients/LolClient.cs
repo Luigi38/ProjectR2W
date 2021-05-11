@@ -11,6 +11,7 @@ using LCUSharp.Websocket;
 using ProjectR2W.Properties;
 using ProjectR2W.Others;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace ProjectR2W.Clients
 {
@@ -52,6 +53,11 @@ namespace ProjectR2W.Clients
         public static bool IsRunning => IsRunningClient || IsRunningGame;
 
         /// <summary>
+        /// 롤 클라이언트가 초기 설정이 되어있는가?
+        /// </summary>
+        public static bool IsInitialized { get; private set; }
+
+        /// <summary>
         /// 챔피언을 선택할 때
         /// </summary>
         public static event EventHandler<LeagueEvent> OnChampSelect;
@@ -62,11 +68,8 @@ namespace ProjectR2W.Clients
         public static Dictionary<string, string> KrToEn = new Dictionary<string, string>();
         public static Dictionary<string, string> EnToKr = new Dictionary<string, string>();
 
-        public static async Task Initialize()
+        public static void Initialize()
         {
-            //Clients
-            //Client = await LeagueClientApi.ConnectAsync();
-
             //Events
             OnChampSelect += LolClient_OnChampSelect;
 
@@ -89,9 +92,17 @@ namespace ProjectR2W.Clients
             }
         }
 
+        public static async Task InitializeClientAsync()
+        {
+            //LCU API Documentation: https://lcu.vivide.re/
+            Client = await LeagueClientApi.ConnectAsync();
+            Client.EventHandler.Subscribe("/lol-champ-select/v1/session", OnChampSelect);
+            IsInitialized = true;
+        }
+
         private static void LolClient_OnChampSelect(object sender, LeagueEvent e)
         {
-
+            Trace.WriteLine("EHLLO WORLD");
         }
     }
 }
