@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 using LCUSharp;
 using LCUSharp.Websocket;
 
+using ProjectR2W.Runes;
 using ProjectR2W.Properties;
 using ProjectR2W.Others;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
 
 namespace ProjectR2W.Clients
 {
@@ -68,6 +69,9 @@ namespace ProjectR2W.Clients
         public static Dictionary<string, string> KrToEn = new Dictionary<string, string>();
         public static Dictionary<string, string> EnToKr = new Dictionary<string, string>();
 
+        public static Dictionary<string, List<RuneGroup>> RuneMap;
+        public static Dictionary<string, byte[]> RuneImageMap;
+
         public static void Initialize()
         {
             //Events
@@ -104,5 +108,7 @@ namespace ProjectR2W.Clients
         {
             Trace.WriteLine("EHLLO WORLD");
         }
+
+        
     }
 }

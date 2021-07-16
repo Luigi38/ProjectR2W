@@ -62,6 +62,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Runes\DominationRune.cs" />
+    <Compile Include="Runes\InspirationRune.cs" />
+    <Compile Include="Runes\IRune.cs" />
+    <Compile Include="Runes\PrecisionRune.cs" />
+    <Compile Include="Runes\ResolveRune.cs" />
+    <Compile Include="Runes\RuneGroup.cs" />
+    <Compile Include="Runes\SlotRune.cs" />
+    <Compile Include="Runes\SorceryRune.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
