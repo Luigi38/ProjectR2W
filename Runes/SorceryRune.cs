@@ -41,6 +41,12 @@ namespace ProjectR2W.Runes
             ShardSlot1 = new SlotRune(3); //적응형 능력치, 공격 속도, 스킬 가속
             ShardSlot2 = new SlotRune(3); //적응형 능력치, 방어력, 마법 저항력
             ShardSlot3 = new SlotRune(3); //체력, 방어력, 마법 저항력
+
+
+
+            ShardSlot1.Ids.AddRange(new[] { "Adaptive", "Attack Speed", "Ability Haste" });
+            ShardSlot2.Ids.AddRange(new[] { "Adaptive", "Armor", "Magic Resistance" });
+            ShardSlot3.Ids.AddRange(new[] { "Health", "Armor", "Magic Resistance" });
         }
     }
 }

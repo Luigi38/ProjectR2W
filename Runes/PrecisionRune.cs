@@ -47,6 +47,10 @@ namespace ProjectR2W.Runes
             Slot1.Ids.AddRange(new[] {"Overheal", "Triumph", "Presence of Mind"});
             Slot2.Ids.AddRange(new[] {"Legend: Alacrity", "Legend: Tenacity", "Legend: Bloodline"});
             Slot3.Ids.AddRange(new[] {"Coup de Grace", "Cut Down", "Last Stand"});
+
+            ShardSlot1.Ids.AddRange(new[] {"Adaptive", "Attack Speed", "Ability Haste"});
+            ShardSlot2.Ids.AddRange(new[] {"Adaptive", "Armor", "Magic Resistance"});
+            ShardSlot3.Ids.AddRange(new[] {"Health", "Armor", "Magic Resistance"});
         }
     }
 }

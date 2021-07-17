@@ -26,23 +26,27 @@ namespace ProjectR2W.Runes
 
         public DominationRune()
         {
-            //
+            //감전, 포식자, 어둠의 수확, 칼날비
             Keystone = new SlotRune(4);
 
-            //
+            //비열한 한 방, 피의 맛, 돌발 일격
             Slot1 = new SlotRune(3);
 
-            //
+            //좀비 와드, 유령 포로, 사냥의 증표
             Slot2 = new SlotRune(3);
 
-            //
+            //굶주린 사냥꾼, 영리한 사냥꾼, 끈질긴 사냥꾼, 궁극의 사냥꾼
             Slot3 = new SlotRune(3);
 
             ShardSlot1 = new SlotRune(3); //적응형 능력치, 공격 속도, 스킬 가속
             ShardSlot2 = new SlotRune(3); //적응형 능력치, 방어력, 마법 저항력
             ShardSlot3 = new SlotRune(3); //체력, 방어력, 마법 저항력
 
-            
+
+
+            ShardSlot1.Ids.AddRange(new[] { "Adaptive", "Attack Speed", "Ability Haste" });
+            ShardSlot2.Ids.AddRange(new[] { "Adaptive", "Armor", "Magic Resistance" });
+            ShardSlot3.Ids.AddRange(new[] { "Health", "Armor", "Magic Resistance" });
         }
     }
 }
