@@ -3,8 +3,6 @@ Rune to Win
 
 Made by **MineEric64**
 
-Idea by **()**
-
 Collaborated by **THEP0LLOCK**, **Juyong**
 
 ## Introduction
