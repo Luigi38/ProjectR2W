@@ -42,11 +42,15 @@ namespace ProjectR2W.Runes
             ShardSlot2 = new SlotRune(3); //적응형 능력치, 방어력, 마법 저항력
             ShardSlot3 = new SlotRune(3); //체력, 방어력, 마법 저항력
 
+            Keystone.Ids.AddRange(new[] {"Electrocute", "Predator", "Dark Harvest", "Hail of Blades"});
 
+            Slot1.Ids.AddRange(new[] {"Cheap Shot", "Taste of Blood", "Sudden Impact"});
+            Slot2.Ids.AddRange(new[] {"Zombie Ward", "Ghost Poro", "Eyeball Collection"});
+            Slot3.Ids.AddRange(new[] {"Ravenous Hunter", "Ingenious Hunter", "Relentless Hunter", "Ultimate Hunter"});
 
-            ShardSlot1.Ids.AddRange(new[] { "Adaptive", "Attack Speed", "Ability Haste" });
-            ShardSlot2.Ids.AddRange(new[] { "Adaptive", "Armor", "Magic Resistance" });
-            ShardSlot3.Ids.AddRange(new[] { "Health", "Armor", "Magic Resistance" });
+            ShardSlot1.Ids.AddRange(new[] {"Adaptive", "Attack Speed", "Ability Haste"});
+            ShardSlot2.Ids.AddRange(new[] {"Adaptive", "Armor", "Magic Resistance"});
+            ShardSlot3.Ids.AddRange(new[] {"Health", "Armor", "Magic Resistance"});
         }
     }
 }
