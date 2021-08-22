@@ -1,3 +1,7 @@
+# 프로젝트 중단.
+## 왜냐고요?
+롤 접어서요.
+
 # ProjectR2W
 Rune to Win
 
